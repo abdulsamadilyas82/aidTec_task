@@ -6,7 +6,7 @@ groovy
             stage('Checkout') {
                 steps {
                     // Checkout code from Git repository
-                    git branch: 'master', url: 'https://github.com/abdulsamadilyas82/aidTec_task'
+                    git branch: 'main', url: 'https://github.com/abdulsamadilyas82/aidTec_task'
                 }
             }
             stage('Build') {
