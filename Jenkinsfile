@@ -10,9 +10,9 @@
             }
             stage('Build') {
                 steps {
-                    withMaven(maven: "Maven42") {
+                    
                     bat 'mvn clean install'
-                    }
+                
                 }
             }
         }
