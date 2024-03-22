@@ -11,7 +11,7 @@
             stage('Build') {
                 steps {
                     withMaven(maven: "Maven42") {
-                    bat 'mvn clean install'
+                    bat 'mvn -f C:/ProgramData/Jenkins/.jenkins\workspace/Pipeline/pom.xml clean install'
                     }
                 }
             }
